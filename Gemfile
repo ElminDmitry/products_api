@@ -11,6 +11,8 @@ gem 'sqlite3'
 gem 'puma', '~> 3.11'
 # Build JSON APIs with ease.
 gem 'fast_jsonapi'
+# SmarterCSV is a Ruby Gem for smarter importing of CSV Files as Arrays of Hashes
+gem 'smarter_csv'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
