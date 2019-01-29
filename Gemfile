@@ -13,6 +13,8 @@ gem 'puma', '~> 3.11'
 gem 'fast_jsonapi'
 # SmarterCSV is a Ruby Gem for smarter importing of CSV Files as Arrays of Hashes
 gem 'smarter_csv'
+gem 'kaminari'
+gem 'pager_api'
 
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false

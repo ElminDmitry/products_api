@@ -1,6 +1,6 @@
 class ProductsController < ApplicationController
   def index
-    @products = Product.all
-    json_response(@products)
+    @products = Product.by_producer(params[:producer])
+    paginate @products, per_page: params[:per_page]
   end
 end
