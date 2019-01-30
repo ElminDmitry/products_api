@@ -13,9 +13,11 @@ gem 'puma', '~> 3.11'
 gem 'fast_jsonapi'
 # SmarterCSV is a Ruby Gem for smarter importing of CSV Files as Arrays of Hashes
 gem 'smarter_csv'
+# Pagination gems
 gem 'kaminari'
 gem 'pager_api'
-
+# Whenever is a Ruby gem that provides a clear syntax for writing and deploying cron jobs.
+gem 'whenever', require: false
 # Reduces boot times through caching; required in config/boot.rb
 gem 'bootsnap', '>= 1.1.0', require: false
 

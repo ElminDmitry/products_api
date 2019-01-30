@@ -1,24 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Requirements
 
-Things you may want to cover:
+This template currently works with:
 
-* Ruby version
+* ruby 2.5.1
 
-* System dependencies
+If you need help setting up a Ruby development environment, check out my [Rails OS X Setup Guide](https://mattbrictson.com/rails-osx-setup-guide).
 
-* Configuration
+## Installation
+```
+git clone git@github.com:ElminDmitry/products_api.git
+cd products_api
+bundle install
+rails s
+```
+## Usage
+Products can be accessed by `localhost:3000/products?producer=producerName`
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+You can pass `page` `per_page` HTTP params for pagination
