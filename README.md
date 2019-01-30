@@ -13,6 +13,7 @@ If you need help setting up a Ruby development environment, check out my [Rails 
 git clone git@github.com:ElminDmitry/products_api.git
 cd products_api
 bundle install
+rails db:migrate
 rails s
 ```
 ## Usage
